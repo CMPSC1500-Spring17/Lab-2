@@ -1,0 +1,23 @@
+PROBLEM 3
+
+
+
+n = getRandomNumber(0:100);
+u = user input;
+"guess" = 1
+If (n > u){
+    system.out.print(n);
+    "LOW";
+   "guess"+=1;
+   }
+If (n < u){
+    system.out.print(n);
+    "HIGH";
+    "guess"+=1;
+    }
+If (n == u)
+    system.out.print(n);
+    "CORRECT";
+    }
+}
+system.out.print("number of "guesses:" guesses)
