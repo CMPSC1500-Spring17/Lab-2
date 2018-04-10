@@ -1,0 +1,31 @@
+import java.Math
+
+int num = math.Random(100) + 1;
+Print "guess a number between 100 and 1, what is your guess?";
+import user.guess;
+int n = 0;
+while (num != guess)
+{
+	if(num > guess)
+	{
+		print " your guess is too low, guess again ";
+		import new user.guess;
+		n++
+	}
+	else if(num < guess)
+	{
+		print " your guess is too high, guess again ";
+		import new user.guess;
+		n++
+	}
+	else if(num == guess)
+	{
+		Break;
+	}
+		
+}
+if(num == guess)
+{
+	n++
+	Print "you guessed right! it took you " + n + " tries to guess the number correctly";
+}
